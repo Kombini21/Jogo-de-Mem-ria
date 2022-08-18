@@ -1,0 +1,9 @@
+.todas__cartas {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 2vh;
+    justify-items: center;
+
+}

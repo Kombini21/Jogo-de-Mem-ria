@@ -1,0 +1,17 @@
+.estrutura__carta {
+
+    background-color: var(--color-bg);
+    width: 38vh;
+    height: 40vh;
+    border-radius: 20%;
+    border: 2px black solid;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.estrutura__carta h1 {
+    font-size: 1.7rem;
+    text-align: center;
+   
+}
+

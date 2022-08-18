@@ -1,18 +1,18 @@
 import React from 'react'
 import { useState } from 'react'
 import Header from '../header/Header';
+import  AdicionarPontos  from '../mecanicasjogo/AdicionarPontos';
 
 const Pontuação = () => {
 
-    const [pontuação, setPontuação] = useState(0);
-    const [pontuaçãoTotal, setPontuaçãoTotal] = useState(0);
+    const [pontos, pontosTotal, resetScore, updateScore] = AdicionarPontos();
+
     
-
-
+   
 
   return (
       <div>
-          <Header pontosAtuais={pontuação} pontosTotais={pontuaçãoTotal}/>
+          <Header pontosAtuais={pontos} pontosTotais={pontosTotal}/>
       </div>
   )
 }

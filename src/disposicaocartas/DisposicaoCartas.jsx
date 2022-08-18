@@ -1,6 +1,7 @@
 import React from 'react'
 import CriacaoCarta from '../criacaocarta/CriacaoCarta'
 import { useState } from 'react'
+import './disposicaocartas.css'
 
 const DisposicaoCartas = () => {
 

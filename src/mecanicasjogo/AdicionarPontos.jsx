@@ -5,6 +5,8 @@ const AdicionarPontos = () => {
     const [pontos, setPontos] = useState(0)
     const [pontosTotal, setPontosTotal] = useState(0)
 
+  
+
 
     const resetScore = () => {
         setPontos(0);
@@ -23,6 +25,8 @@ const AdicionarPontos = () => {
             return score;
         })
     }
+
+    
 
 
   return (
